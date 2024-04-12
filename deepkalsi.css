@@ -1,0 +1,247 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #page1 {
+    background-color: black;
+    min-height: 100vh;
+    width: 100%;
+    /* position: absolute; */
+  }
+  
+  #page1 nav {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vw;
+    border-bottom: 1px solid white;
+  }
+  
+  nav img {
+    padding-left: 45vw;
+    height: 9vw;
+  }
+  
+  #socialMedia {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    right: 0%;
+    padding-right: 2vw;
+  }
+  
+  #socialMedia a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0vw 1vw;
+    font-size: 1.5vw;
+    transition: all ease 1s;
+  }
+  
+  #socialMedia a:hover{
+    scale: 1.1;
+  }
+  
+  #info {
+    display: flex;
+    padding: 3vw 2vw;
+  }
+  
+  #info #i-part1 {
+    color: aliceblue;
+    width: 80%;
+    line-height: 2vw;
+    font-family: "Founders Grotesk";
+    font-size: 1.9vw;
+  }
+  
+  #info #i-part2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+    overflow: hidden;
+    margin-left: 2vw;
+  }
+  
+  #i-part2 img {
+    height: 33vw;
+    transition: all ease 1s;
+    margin-left: 1vw;
+  }
+  
+  #i-part2 img:hover {
+    scale: 1.1;
+  }
+  
+  .page2 {
+    background-color: #000000;
+    padding: 1vw;
+  }
+  
+  #Playlist {
+    background-color: rgb(6 6 6);
+    color: aliceblue;
+    height: 30vw;
+    padding: 1vw;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+  }
+  
+  #Playlist h4 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-family: "icomoon";
+    font-size: 4vw;
+    font-weight: 400;
+    color: #fffcfc;
+    padding-top: 1.5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    transition: all ease 1s;
+  }
+  
+  #Playlist h4:hover {
+    background-color: #000000;
+  }
+  
+  #Playlist h4::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 5%;
+    background-color: white;
+    transition: all ease 1s;
+  }
+  
+  #Playlist h4:hover::after {
+    width: 100%;
+  }
+  
+  .audio {
+    margin: 2vw;
+  }
+  
+  .tour {
+    height: 30vw;
+    background-color: rgb(6 6 6);
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+  }
+  
+  .tour h4 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-family: "icomoon";
+    font-size: 4vw;
+    font-weight: 400;
+    color: #fffcfc;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    transition: all ease 1s;
+    padding-top: 1vw;
+  }
+  
+  .tour h4:hover {
+    background-color: #000000;
+  }
+  
+  .tour h4::after {
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 3px;
+    background-color: #fffcfc;
+    left: 0;
+    bottom: 0;
+    transition: all ease 1s;
+  }
+  
+  .tour h4:hover::after {
+    width: 100%;
+  }
+  
+  .swiper {
+    width: 520px;
+    height: 300px;
+    margin-top: 4vw;
+    border-radius: 0.5vw;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .swiper-slide:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+  }
+  
+  .swiper-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+  }
+  
+  .swiper-slide:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+  }
+  
+  .swiper-slide:nth-child(5n) {
+    background-color: rgb(118, 163, 12);
+  }
+  
+  .swiper-slide:nth-child(6n) {
+    background-color: rgb(180, 10, 47);
+  }
+  
+  .swiper-slide:nth-child(7n) {
+    background-color: rgb(35, 99, 19);
+  }
+  
+  .swiper-slide:nth-child(8n) {
+    background-color: rgb(0, 68, 255);
+  }
+  
+  .swiper-slide:nth-child(9n) {
+    background-color: rgb(218, 12, 218);
+  }
+  
+  .swiper-slide:nth-child(10n) {
+    background-color: rgb(54, 94, 77);
+  }
+  
+  footer h1{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      color: #fffcfc;
+      padding: 1.5vw;
+      font-family:"Founders Grotesk" ;
+      font-weight: 100;
+      font-size: 1vw;
+  }
